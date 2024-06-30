@@ -3,6 +3,35 @@
 <head>
     <title>DOM Manipulation</title>
 </head>
+<style>
+    .container{
+            /* background-color: red; */
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .input-box{
+            width: 150px;
+            margin: 10px auto;
+            border-radius: 5px;
+        }
+        .heading{
+            text-align: center;
+        }
+        .btn-class{
+            width:110px;
+            margin-top: 28px;
+            border-radius: 5px;
+            background-color: rgb(15, 234, 164);
+        }
+        .text-result{
+            margin: 0;
+            padding:0;
+            font-size:30px;
+        }
+    </style>
+</style>
 <body>
      <!-- <fieldset> -->
     <div class="container">
@@ -12,7 +41,7 @@
 
         <p class="text-result" id="text-result"></p>
         <div>
-            <button type="button" class="btn-action" onclick="calSum()">
+            <button type="button" class="btn-class" onclick="calSum()">
                 Calculate
             </button>
         </div>
